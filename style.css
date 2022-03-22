@@ -1,0 +1,32 @@
+.ms-Spinner {
+    font-family: calibri;
+    position: absolute;
+    padding-right: 47px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    }.ms-Spinner.ms-Spinner--large {
+    height: 50px;
+    }.ms-Spinner.ms-Spinner--large.ms-Spinner-label {
+    left: 34px;top: 6px
+    }.ms-Spinner-circle {
+    padding: 1px;
+    position: absolute;
+    border-radius: 100px;
+    background-color: #0078d7;
+    opacity: 0;
+}
+
+@media screen and (-ms-high-contrast:active){
+    .ms-Spinner-circle{
+        background-color:#fff
+    }
+}
+
+@media screen and (-ms-high-contrast:black-on-white)
+{
+    .ms-Spinner-circle{
+        background-color:#000
+    }
+}
