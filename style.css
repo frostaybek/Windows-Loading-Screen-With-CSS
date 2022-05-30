@@ -6,11 +6,14 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    }.ms-Spinner.ms-Spinner--large {
+    }
+    .ms-Spinner.ms-Spinner--large {
     height: 50px;
-    }.ms-Spinner.ms-Spinner--large.ms-Spinner-label {
+    }
+    .ms-Spinner.ms-Spinner--large.ms-Spinner-label {
     left: 34px;top: 6px
-    }.ms-Spinner-circle {
+    }
+    .ms-Spinner-circle {
     padding: 1px;
     position: absolute;
     border-radius: 100px;
